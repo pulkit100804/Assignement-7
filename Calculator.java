@@ -1,0 +1,12 @@
+public class Calculator {
+
+    /**
+     * Adds two numbers.
+     *
+     * @param a first number
+     * @param b second number
+     * @return sum of a and b
+     */
+    public static double add(double a, double b) {
+        return a + b;
+    }
