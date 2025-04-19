@@ -7,9 +7,9 @@ public class Calculator {
      * @param b second number
      * @return sum of a and b
      */
-    public static double add(double a, double b) {
+public static double add(double a, double b) {
         return a + b;
-    }
+}
   /**
      * Subtracts second number from the first.
      *
@@ -17,6 +17,16 @@ public class Calculator {
      * @param b second number
      * @return difference of a and b
      */
-    public static double subtract(double a, double b) {
+public static double subtract(double a, double b) {
         return a - b;
-    }
+}
+ /**
+     * Multiplies two numbers.
+     *
+     * @param a first number
+     * @param b second number
+     * @return product of a and b
+     */
+public static double multiply(double a, double b) {
+        return a * b;
+}
