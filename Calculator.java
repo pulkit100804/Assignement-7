@@ -62,3 +62,17 @@ public static double square(double a) {
 public static double cube(double a) {
         return a * a * a;
 }
+ /**
+     * Finds the square root of a number.
+     *
+     * @param a the number
+     * @return square root of a
+     * @throws ArithmeticException if a is negative
+     */
+public static double squareRoot(double a) throws ArithmeticException {
+        if (a < 0) {
+            throw new ArithmeticException("Cannot take square root of a negative number");
+        }
+    return Math.sqrt(a);
+    }
+}
