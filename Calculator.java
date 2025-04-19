@@ -53,3 +53,12 @@ public static double divide(double a, double b) throws ArithmeticException {
 public static double square(double a) {
         return a * a;
 }
+   /**
+     * Cubes a number.
+     *
+     * @param a number
+     * @return a * a * a
+     */
+public static double cube(double a) {
+        return a * a * a;
+}
