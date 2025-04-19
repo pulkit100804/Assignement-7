@@ -44,4 +44,12 @@ public static double divide(double a, double b) throws ArithmeticException {
         }
     return a / b;
 }
-
+ /**
+     * Squares a number.
+     *
+     * @param a number
+     * @return a * a
+     */
+public static double square(double a) {
+        return a * a;
+}
